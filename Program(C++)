@@ -10,13 +10,13 @@
 #include <string.h>
 #define MAX 100 
 int letturafile(char file [] , int vettore []);
-int prova (){
+int main (){
  char file[MAX];
  int vettore[MAX] , dim , i ;
- printf("Digita il nome del file da aprire : ");
+ printf("Write there the PATH of the file you want open : ");
  scanf("%s" , file);
  dim = letturafile(file , vettore);
- printf("I numeri interi nel file sono :\n");
+ printf("The program PID is :\n");
  for ( i=0 ; i < dim ; i++){
   printf("%d " , vettore[i]);   
  }
