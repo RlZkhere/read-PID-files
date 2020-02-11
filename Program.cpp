@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: godzkhere
+ * Author: godzkhere and Sadiq
  *
  * Created on 4/7/2016, 20.14
  */
